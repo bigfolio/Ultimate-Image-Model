@@ -1,0 +1,8 @@
+development:
+    access_key_id: 0W3YN88EFVNECXDR3N02
+    secret_access_key: 3W3XKFmvhWLxr5cO4YuPUhJwo/f+lcRTT4vezc3n
+    bucket: ultimate-image
+production:
+    access_key_id: [YOUR-KEY-ID]
+    secret_access_key: [YOUR-SECRET-KEY]
+    bucket: your-bucket-name

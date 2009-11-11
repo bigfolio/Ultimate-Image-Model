@@ -1,0 +1,26 @@
+h1. Ultimate Image Model
+
+A high-performance image model for use in Rails applications. Uses Paperclip and delayed_job to process and store large image files asynchronously in your app. This is a proof of concept and an ongoing project. 
+
+h2. Requirements
+
+* delayed_job gem
+* Paperclip gem
+* "MiniExiftool gem":http://miniexiftool.rubyforge.org/
+* "ExifTool by Phil Harvey":http://www.sno.phy.queensu.ca/~phil/exiftool/
+
+h2. Install
+
+It's just a Rails app. 
+
+* Download or clone
+* Edit the database.yml file
+* Edit the s3.yml file
+* Rake gems:install
+* Rake db:migrate
+* Fire it up however you like
+* Make sure you have delayed_job script or rake task running in order to process files
+
+h2. More Info
+
+Based on my ongoing blog posts at http://callmeed.posterous.com

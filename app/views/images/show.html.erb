@@ -1,0 +1,25 @@
+<div><%= image_tag @image.url(:square), :width => '200', :height => 'auto' %></div>
+<%= link_to 'Edit', edit_image_path(@image) %> |
+<%= link_to 'Back', images_path %>
+<p>
+  <%= @image.title         %><br />
+  <%= @image.model         %><br />
+  <%= @image.exposure_time %><br />
+  <%= @image.focal_length  %><br />
+  <%= @image.aperture      %><br />
+  <%= @image.width         %><br />
+  <%= @image.height        %>
+</p>
+<p><%= @image.description %></p>
+
+<p><%= image_tag @image.url(:mini) %></p>
+
+<p><%= image_tag @image.url(:small) %></p>
+
+<p><%= image_tag @image.url(:square) %></p>
+
+<p><%= image_tag @image.url(:medium) %></p>
+
+<p><%= image_tag @image.url(:large) %></p>
+
+<p><%= link_to 'Original', @image.url(:original) %></p>
